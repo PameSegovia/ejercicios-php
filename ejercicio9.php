@@ -20,7 +20,7 @@
 </head>
 <body>
 	<form action="ejercicio8.php" method="post" > 
-		VALOR P:
+		VALOR A:
 	<input type="text" name="valorA" id="">
 	<br/>
 		VALOR B:
