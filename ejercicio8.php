@@ -1,3 +1,16 @@
+<?php
+
+	if($_POST){
+		$valorA=$_POST['valorA'];
+		$valorB=$_POST['valorB'];
+		
+		//Sumando
+		$suma=$valorA+$valorB;
+		echo $suma;
+
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +25,8 @@
 	<br/>
 		VALOR B:
 	<input type="text" name="valorB" id="">
-
+	<br/>
+	<input type="submit" value="Calcular">
 	</form>
 </body>
 
