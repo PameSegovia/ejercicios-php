@@ -6,6 +6,7 @@
 		
 		//Sumando
 		$suma=$valorA+$valorB;
+<<<<<<< HEAD
 		$resta=$valorA-$valorB;
 		$division=$valorA/$valorB;
 		$multiplica=$valorA*$valorB;
@@ -13,6 +14,9 @@
 		echo "<br/>".$resta;
 		echo "<br/>".$division;
 		echo "<br/>".$multiplica;		
+=======
+		echo $suma;
+>>>>>>> 6ca57d0e78e5b1fc2ab5712a3ed22c6a36ace1a0
 
 	}
 ?>
@@ -25,7 +29,11 @@
 	<title>Operadores Aritméticos</title>
 </head>
 <body>
+<<<<<<< HEAD
 	<form action="ejercicio9.php" method="post" > 
+=======
+	<form action="ejercicio8.php" method="post" > 
+>>>>>>> 6ca57d0e78e5b1fc2ab5712a3ed22c6a36ace1a0
 		VALOR A:
 	<input type="text" name="valorA" id="">
 	<br/>
