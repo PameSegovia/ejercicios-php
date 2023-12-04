@@ -4,10 +4,10 @@
 		$valorA=$_POST['valorA'];
 		$valorB=$_POST['valorB'];
 		
-		//Sumando
-		$suma=$valorA+$valorB;
-		echo $suma;
-
+		if (($valorA != $valorB) || ($valorA > $valorB)) {
+			echo "El valor de A es diferente al de B y tambien es mayor";
+		}
+		
 	}
 ?>
 
@@ -19,7 +19,7 @@
 	<title>Operadores Aritméticos</title>
 </head>
 <body>
-	<form action="ejercicio8.php" method="post" > 
+	<form action="ejercicio11.php" method="post" > 
 		VALOR A:
 	<input type="text" name="valorA" id="">
 	<br/>
