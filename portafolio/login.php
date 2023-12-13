@@ -1,3 +1,18 @@
+<?php
+session_start();
+if($_POST){
+	if(($_POST['usuario']=="developer") && ($_POST['contrasenia']=="12345")) {
+		$_SESSION['usuario']="developer";
+		
+	header("location:index.php");
+
+		}else{
+			echo "<script>alert('Usuario o Contraseña Incorrecta'); </script>";
+		}
+	}
+
+?>
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -34,7 +49,7 @@
 							<form action="login.php" method="post">
 							Usuario: <input class="form-control"  type="text" name="usuario" id="">
 							<br/>
-							Contraseña: <input class="form-control"  type="text" name="contrasenia" id="">
+							Contraseña: <input class="form-control"  type="password" name="contrasenia" id="">
 							<br/>
 							<button class="btn btn-success" type="submit">Entrar a mi Portafolio</button>
 							</form>	
