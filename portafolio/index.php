@@ -1,11 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portafolio</title>
-</head>
-<body>
-	Hola Developer soy tu portafolio
-</body>
-</html>
+<?php include("cabecera.php");?>
+
+
+
+
+		<div class="p-5 bg-light"	>
+			<div class="container">
+				<h1 class="display">Bienvenid@s</h1>
+				<p class="lead">Este es un portafolio privado</p>
+				<hr class="my-2">
+				<p>Más Información</p>
+			</div>
+
+
+		</div>
+
+
+	
+	
+
+
+
+	
+<?php include("pie.php"); ?>
